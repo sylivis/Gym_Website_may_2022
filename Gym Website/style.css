@@ -1,0 +1,170 @@
+/* * {
+    border: #f800fdcd;
+    border-style: solid;
+} */
+
+.image1{
+    width: fit-content;
+
+}
+.main {
+    margin-bottom: 60px;
+}
+.redline
+    {
+        width:2px;
+        content: " ";
+        height: 1000vmax;
+        position: fixed;
+        top: 0; 
+        width: 20%;
+        left: 20%;
+        z-index: -1;
+        background-color:#ed2e2ecd;
+        background-repeat:repeat-y;
+    }
+a {
+    color:aliceblue;
+}
+    /* navbar stuff */
+   .navitem {
+        background-color: rgb(90, 161, 243);
+        border-top-left-radius:  17px;
+        border-bottom-right-radius: 17px;
+        width: fit-content;
+        display: inline;
+        top: 0;        
+        padding: 5px;
+        margin-top: 10px;
+        z-index: 1000;
+        margin-right: 5px;
+
+    }
+    .linktag {
+        color: black;
+        text-decoration: none;
+    }
+    .navbar {
+        position: sticky;
+        top: 0;
+
+    }
+    .navbrand{
+        position: sticky;
+        left: 4px;
+    }
+
+    .navitemholder {
+        width: fit-content;
+        display: inlinebox;
+    }
+
+
+   /* for items in main */
+    .boxitem {
+        background-color: rgb(35, 126, 179);
+        color: rgb(246, 246, 246);
+        margin: 7px;
+        min-width: fit-content;
+        max-width: fit-content;
+        max-height: fit-content;
+        border-top-right-radius:  17px;
+        border-bottom-left-radius: 17px;
+    }
+    /* minitro*/ @media (min-width: 1000px) { 
+        .minintro{
+        margin-top: 100px;
+    }
+}
+    .moreinfo {
+        align-self: flex-end;
+        white-space: nowrap;
+    }
+    .infoinput {
+        padding: 3px;
+        
+    }
+    .signbox {
+        height: 40%;
+        display: flexbox;
+        flex-direction: column;
+    }
+    #colortext {
+        color: #ff0101;
+    }
+    .classschedule {
+        flex-shrink: 2;
+    }
+    th{
+        border: solid 2px aliceblue;
+    }
+    td {
+        border: solid 2px aliceblue;
+    }
+    .link {
+        text-decoration: underline;
+        color: aliceblue;    
+    }
+    .header {
+        border-top: none;
+        padding: 3px;
+    }
+    .sider{
+        border-left: none;
+    }
+    #signin-background {
+        z-index: -1;
+        width: 30%;
+        position: absolute;
+        right: 0;
+        margin-right: 15%;
+    }
+    .about-item {
+        background-color: rgb(35, 126, 179);
+        color: rgb(246, 246, 246);
+        margin: 7px;
+        justify-self: left;
+        margin-left: 10%;
+        max-width: fit-content;
+        max-height: fit-content;
+        border-top-right-radius:  17px;
+        border-bottom-left-radius: 17px;
+    }
+    .pic {
+        border-top-left-radius: 17px;
+    }
+    .about-pic{
+        border-top-left-radius: 17px;
+        justify-self: right;
+        box-sizing: border-box;
+    }
+    .signinButton {
+        border-top-left-radius: 17px;
+        border-bottom-right-radius: 17px;
+        background-color: rgb(90, 161, 243);
+    }
+    .signinButton:hover{
+        border-top-right-radius: 17px;
+        border-bottom-left-radius: 17px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        background-color: rgba(38, 148, 212, 0.854);
+    }
+    /* gross foot stuff */
+    .footer {
+        display: flex;
+        position: fixed;
+        bottom: 10px;
+        width: 100%;
+        justify-content: center;
+        background-color: #760404;
+        color: antiquewhite;
+        gap: 10%;
+        list-style-type: none;
+    }
+    .foot-link{
+        text-decoration: none;
+    }
+    .foot-link:hover {
+        color: rgb(185, 191, 196);
+    }
